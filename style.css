@@ -17,6 +17,18 @@ html {
 /* body {
   font-family: "The Nautigal", cursive;
 } */
+@font-face {
+  font-family: "Inc med";
+  src: url(/fonts/Inconsolata-Medium.ttf);
+}
+@font-face {
+  font-family: "Inc reg";
+  src: url(/fonts/Inconsolata-Regular.ttf);
+}
+@font-face {
+  font-family: "Playfair";
+  src: url(/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
 h1 {
   font-size: var(--header1);
 }
@@ -37,15 +49,23 @@ h4,
 h5 {
   font-size: var(--header4);
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-ul {
-  list-style: none;
+
+body {
+  font-family: "Inc med", sans-serif;
 }
-a {
-  text-decoration: none;
+h1 {
+  font-family: "Playfair", sans-serif;
 }

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Тайное братство котассасинов ждет вас">
         <meta name="robots" content="index,follow">
-        <link rel="icon" href="icons/sandwich_bread_bikini_snack_food_icon_207997.ico">
+        <link rel="icon" href="icon/cat_halloween_23230.ico">
         <link rel="stylesheet" href="style.css">
         <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,22 +19,87 @@
             <h1 id="logo">
                 CatSassins
             </h1>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#about">О нас</a></li>
-                <li><a href="#photo">Члены братства</a></li>
-                <li><a href="#contact">Позвони</a></li>
+                <li><a href="#gallery">Члены братства</a></li>
+                <li><a href="#contact">Вступить</a></li>
             </ul>
-
+            <div class="burger">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <h2>CatSassins <br/>The killers</h2>
+            <div class="hero-introduction flex">
+                <h2>CatSassins <br />The killers</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, deleniti?
+                </p>
+                <a href="#gallery">Vs</a>
+            </div>
+            <div class="hero-images">
+                <img class="hero-catsas" src="/img/1626160718_44-krasivosti-pro-p-koti-assasini-koti-krasivo-foto-50.png"
+                    alt="picture of CatSassins">
+            </div>
         </section>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, deleniti?
-        </p>
-        <a href="#gallery">Мы</a>
+        <section class="about" id="about">
+            <div class="about-image">
+                <h5>СИЛА</h5>
+                <img src="/img/1626160748_20-krasivosti-pro-p-koti-assasini-koti-krasivo-foto-23.jpg" alt="cat-sassin">
+            </div>
+            <div class="about-text flex">
+                <h2>Котсассины</h2>
+                <div class="about-life">
+                    <h3>Наша жизнь</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem repudiandae unde animi non dolores delectus laborum numquam, corporis eos! Animi magni voluptatem nulla vero non, facere doloremque odio ullam dignissimos?</p>
+                </div>
+                <div class="about-work">
+                    <h3>Наша работа</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem repudiandae unde animi non dolores delectus laborum numquam, corporis eos! Animi magni voluptatem nulla vero non, facere doloremque odio ullam dignissimos?</p>
+                </div>
+                <div class="about-contact">
+                    <h3>Связь прием прием</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem repudiandae unde animi non dolores delectus laborum numquam, corporis eos! Animi magni voluptatem nulla vero non, facere doloremque odio ullam dignissimos?</p>
+                </div>
+            </div>
+        </section>
+        <div class="gallery" id="gallery">
+            <header class="GALLERY-HEAD">
+                <h2>МЫ</h2>
+                <p>МЫЫЫЫЯУ</p>
+            </header>
+            <img class="gallery1" src="/img/серьезный кот.jpg" alt="seri">
+            <img class="gallery2" src="/img/котвкепке.jpg" alt="kotkep">
+            <img class="gallery3" src="/img/старые.jpg" alt="old">
+            <img class="gallery4" src="/img/молодняк.jpg" alt="young">
+        </div>
+        <section class="contact" id="contact">
+            <div class="form-wrapper flex">
+                <h2>Вступай <br><span>Пожалеешь.</span>
+                </h2>
+                <form action="">
+                    <label for="email">Ваша кочта:</label>
+                    <input required type="email" id="email">
+                    <label for="textarea">Причины:</label>
+                    <textarea required name="message" id="message" cols="47" rows="10"></textarea>
+                    <button type="submit">Котверждение</button>
+                </form>
+            </div>
+            <img src="/img/сидяк.jpg" alt="sitting">
+        </section>
     </main>
+    <footer>
+        <h4>Никто &copy; никогда</h4>
+        <ul>
+            <li><a target="_blank" href="https://krasivosti.pro/"><img src="/icon/website_web_12218.ico" width="50px" alt="ссылка"></a></li>
+            <li><a target="_blank" href="https://t.me/selegeon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/32px-Telegram_logo.svg.png" ></a></li>
+            <li><a target="_blank" href="https://www.pinterest.ru/pin/570760952780697264/"><img src="/icon/pint.png" width="50px"></a></li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
+<!-- ctrl + shift + p > vtmi -->
